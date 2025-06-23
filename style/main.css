@@ -1,3 +1,8 @@
+:root {
+  --black-color: #000;
+  --white-color: #fff;
+}
+
 *,
 *::before,
 *::after {
@@ -32,15 +37,6 @@ img {
   max-width: 100%;
 }
 
-body {
-  font-family: "Gilroy-Regular";
-  font-weight: 400;
-  font-style: normal;
-  background-image: url(../img/bg.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .container {
   padding: 0 20px;
   width: 100%;
@@ -63,12 +59,21 @@ body {
   }
 }
 
-header__logo {
+body {
+  font-family: "Gilroy-Regular";
+  font-weight: 400;
+  font-style: normal;
+  background-image: url(../img/bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header .header__logo {
   width: 93px;
   height: 38.145px;
 }
-header__content {
-  color: #000;
+.header__content {
+  color: var(--white--color);
   font-family: "Montserrat Alternates";
   font-size: 12px;
   font-weight: 400;
