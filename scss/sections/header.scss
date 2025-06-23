@@ -1,0 +1,19 @@
+.header {
+    &__logo {
+        width: 93px;
+        height: 38.145px;
+    }
+
+    &__nav {}
+
+    &__list {}
+
+    &__item {}
+
+    &__content {
+        color: var(--white--color);
+        font-family: "Montserrat Alternates";
+        font-size: 12px;
+        font-weight: 400;
+    }
+}

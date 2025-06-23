@@ -1,1 +1,10 @@
-/*# sourceMappingURL=header.css.map */
+.header__logo {
+  width: 93px;
+  height: 38.145px;
+}
+.header__content {
+  color: var(--white--color);
+  font-family: "Montserrat Alternates";
+  font-size: 12px;
+  font-weight: 400;
+}/*# sourceMappingURL=header.css.map */

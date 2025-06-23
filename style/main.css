@@ -32,6 +32,15 @@ img {
   max-width: 100%;
 }
 
+body {
+  font-family: "Gilroy-Regular";
+  font-weight: 400;
+  font-style: normal;
+  background-image: url(../img/bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .container {
   padding: 0 20px;
   width: 100%;
@@ -52,4 +61,15 @@ img {
   .container {
     width: 1090px;
   }
+}
+
+header__logo {
+  width: 93px;
+  height: 38.145px;
+}
+header__content {
+  color: #000;
+  font-family: "Montserrat Alternates";
+  font-size: 12px;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */
