@@ -1,19 +1,41 @@
 .header {
+
     .header__logo {
         width: 93px;
         height: 38.145px;
     }
 
-    &__nav {}
+    // &__nav {}
 
-    &__list {}
+    // &__list {}
 
-    &__item {}
+    // &__item {}
 
     &__content {
         color: var(--white--color);
         font-family: "Montserrat Alternates";
         font-size: 12px;
         font-weight: 400;
+    }
+
+    &__img {
+        width: 5px;
+        height: 9px;
+        transform: rotate(-180deg);
+    }
+
+    &__catalog {}
+
+    &__thing {}
+
+
+
+    &__text {
+        color: var(--black-color);
+        font-family: "Montserrat Alternates";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 }
