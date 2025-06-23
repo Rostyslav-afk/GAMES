@@ -1,1 +1,21 @@
-/*# sourceMappingURL=container.css.map */
+.container {
+  padding: 0 20px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1090px) {
+  .container {
+    width: 1090px;
+  }
+}/*# sourceMappingURL=container.css.map */
