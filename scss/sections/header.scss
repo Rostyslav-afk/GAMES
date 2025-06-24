@@ -1,6 +1,43 @@
 .header {
     padding-top: 21px;
     padding-bottom: 20px;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    width: 100%;
+    z-index: 99999;
+
+
+    &__modal {
+        width: 120px;
+        background-color: #fff;
+        border: 1px solid #000;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 39px;
+        padding-left: 40px;
+        border-radius: 20px;
+        position: absolute;
+        top: 45px;
+        left: 600px;
+        opacity: 0;
+        transition: 0.3s;
+
+        &-list {
+            display: flex;
+            justify-self: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        &-subtitle {
+            color: var(--black-color);
+            font-family: "Montserrat Alternates";
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
 
     .box {
         display: flex;
@@ -27,6 +64,11 @@
         display: flex;
         align-items: center;
         gap: 8px;
+
+        &:hover .header__modal {
+            opacity: 1;
+            pointer-events: auto;
+        }
     }
 
     &__content {

@@ -56,6 +56,10 @@ body {
   transition: 0.3s;
 }
 
+.dark-mode .header__modal {
+  background-color: var(--grayer-color);
+}
+
 .dark-mode h1,
 .dark-mode h2,
 .dark-mode h3,
@@ -110,6 +114,36 @@ body {
 .header {
   padding-top: 21px;
   padding-bottom: 20px;
+  width: 100%;
+  z-index: 99999;
+}
+.header__modal {
+  width: 120px;
+  background-color: #fff;
+  border: 1px solid #000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 39px;
+  padding-left: 40px;
+  border-radius: 20px;
+  position: absolute;
+  top: 45px;
+  left: 600px;
+  opacity: 0;
+  transition: 0.3s;
+}
+.header__modal-list {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.header__modal-subtitle {
+  color: var(--black-color);
+  font-family: "Montserrat Alternates";
+  font-size: 12px;
+  font-weight: 400;
 }
 .header .box {
   display: flex;
@@ -132,6 +166,10 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+.header__item:hover .header__modal {
+  opacity: 1;
+  pointer-events: auto;
 }
 .header__content {
   color: var(--white--color);
@@ -169,7 +207,7 @@ body {
   background-color: white;
   border: 1px solid var(--black-color);
   border-radius: 50%;
-  background-image: url("../../../img/sun-icon.webp");
+  background-image: url("../../img/sun-icon.webp");
   background-size: 15px 14px;
   background-repeat: no-repeat;
   background-position: center;
