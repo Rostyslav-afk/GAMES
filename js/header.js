@@ -8,8 +8,8 @@ toggle.addEventListener("click", (event) => {
 
 
     if (document.body.classList.contains("dark-mode")) {
-        headerLogo.src = ".././img/white-logo1.webp";
+        headerLogo.src = "../img/white-logo1.webp";
     } else {
-        headerLogo.src = ".././img/logo1.webp";
+        headerLogo.src = "../img/logo1.webp";
     }
 });
