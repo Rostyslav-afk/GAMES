@@ -2,6 +2,7 @@
   --black-color: #000;
   --white-color: #fff;
   --gray-color: #7A7A7A;
+  --grayer-color: #444444;
 }
 
 *,
@@ -45,6 +46,27 @@ body {
   background-image: url(../img/bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.dark-mode a {
+  color: var(--white-color);
+}
+
+.dark-mode p {
+  color: var(--white-color);
+}
+
+.dark-mode .container {
+  background-color: var(--grayer-color);
+}
+
+.dark-mode .header__logo {
+  fill: var(--white-color);
 }
 
 .container {

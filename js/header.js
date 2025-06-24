@@ -1,10 +1,14 @@
 // //DARK THEME
-// const toggle = document.querySelector(".header__theme-togle");
-// const container = document.querySelector(".container");
+const container = document.querySelector(".container");
+const toggle = document.querySelector(".header__theme");
+const headerLogo = document.querySelector(".header__logo");
 
-// toggle.addEventListener("click", (event) => {
-//     event.preventDefault();
+toggle.addEventListener("click", (event) => {
+    document.body.classList.toggle("dark-mode");
 
-//     container.style.backgroundColor = "#000";
-//     container.style.color = "#fff";
-// });
+    if (document.body.classList.contains("dark-mode")) {
+        headerLogo.src = "../img/white-logo1.webp";
+    } else {
+        headerLogo.src = "../img/logo1.webp";
+    }
+});
