@@ -1,14 +1,33 @@
 .header {
-    .header__logo {
-        width: 93px;
-        height: 38.145px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+
+    .box {
+        display: flex;
+        align-items: center;
     }
 
-    // &__nav {}
+    &__logo {
+        width: 93px;
+        height: 38.145px;
+        margin-right: 81px;
+    }
 
-    // &__list {}
+    &__nav {
+        margin-right: auto;
+    }
 
-    // &__item {}
+    &__list {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
 
     &__content {
         color: var(--white--color);
@@ -18,12 +37,16 @@
     }
 
     &__img {
-        width: 5px;
+        width: 9px;
         height: 9px;
         transform: rotate(-180deg);
     }
 
-    &__catalog {}
+    &__catalog {
+        display: flex;
+        align-items: center;
+        gap: 51px;
+    }
 
     &__thing {}
 

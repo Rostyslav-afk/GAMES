@@ -69,9 +69,31 @@ body {
   }
 }
 
-.header .header__logo {
+.header {
+  padding-top: 21px;
+  padding-bottom: 20px;
+}
+.header .box {
+  display: flex;
+  align-items: center;
+}
+.header__logo {
   width: 93px;
   height: 38.145px;
+  margin-right: 81px;
+}
+.header__nav {
+  margin-right: auto;
+}
+.header__list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.header__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 .header__content {
   color: var(--white--color);
@@ -80,9 +102,14 @@ body {
   font-weight: 400;
 }
 .header__img {
-  width: 5px;
+  width: 9px;
   height: 9px;
   transform: rotate(-180deg);
+}
+.header__catalog {
+  display: flex;
+  align-items: center;
+  gap: 51px;
 }
 .header__theme {
   width: 40px;
@@ -126,7 +153,5 @@ body {
   color: var(--black-color);
   font-family: "Montserrat Alternates";
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }/*# sourceMappingURL=main.css.map */
