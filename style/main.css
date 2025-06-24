@@ -90,7 +90,8 @@ body {
 }
 
 .dark-mode .hero__line,
-.dark-mode .year__line {
+.dark-mode .year__line,
+.dark-mode .number__line {
   background-color: var(--white-color);
 }
 
@@ -366,4 +367,62 @@ body {
   background-color: var(--black-color);
   margin: 0 auto;
   margin-top: 36px;
+}
+
+.rsp {
+  padding-bottom: 36px;
+  text-align: center;
+}
+.rsp__subtitle {
+  color: var(--black-color);
+  font-family: "Montserrat Alternates";
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.rsp__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 104px;
+}
+.rsp__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 38px;
+}
+.rsp__button {
+  padding: 10px;
+  border-radius: 20px;
+  background: #000;
+  border: none;
+}
+.rsp__image {
+  width: 40px;
+  height: 40px;
+}
+.rsp__result {
+  color: var(--green-color);
+  font-family: "Montserrat Alternates";
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+.rsp__btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 20px;
+  background: var(--black-color);
+  color: var(--white-color);
+  font-family: "Montserrat Alternates";
+  font-size: 12px;
+  font-weight: 400;
+  border: none;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
