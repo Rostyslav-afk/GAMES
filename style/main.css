@@ -86,7 +86,8 @@ body {
   fill: var(--white-color);
 }
 
-.dark-mode .hero__line {
+.dark-mode .hero__line,
+.dark-mode .year__line {
   background-color: var(--white-color);
 }
 
