@@ -10,6 +10,7 @@ body {
 .dark-mode {
   background-color: #333333;
   color: #ffffff;
+  transition: 0.3s;
 }
 
 .dark-mode a {
