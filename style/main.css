@@ -4,6 +4,7 @@
   --gray-color: #7A7A7A;
   --grayer-color: #444444;
   --pre-black: #333333;
+  --green-color: #039900;
 }
 
 *,
@@ -249,4 +250,60 @@ body {
   height: 1px;
   background-color: var(--black-color);
   margin: 0 auto;
+}
+
+.year {
+  padding-bottom: 36px;
+}
+.year__title {
+  color: var(--black-color);
+  font-family: "Montserrat Alternates";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 36px;
+  text-align: center;
+}
+.year__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 149px;
+}
+.year__wrapper {
+  position: relative;
+}
+.year__input {
+  border-radius: 20px;
+  background: #D7D7D7;
+  border: none;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2509803922);
+  color: #7E7E7E;
+  font-family: "Montserrat Alternates";
+  font-size: 12px;
+  font-weight: 400;
+  width: 215px;
+  height: 35px;
+  padding-left: 10px;
+}
+.year__button {
+  padding: 10px;
+  border-radius: 0px 20px 20px 0px;
+  background: var(--black-color);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: none;
+}
+.year__text {
+  color: var(--green-color);
+  font-family: "Montserrat Alternates";
+  font-size: 12px;
+  font-weight: 400;
+}
+.year__line {
+  width: 536px;
+  height: 1px;
+  background-color: var(--black-color);
+  margin: 0 auto;
+  margin-top: 36px;
 }/*# sourceMappingURL=main.css.map */
