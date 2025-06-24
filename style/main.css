@@ -3,6 +3,7 @@
   --white-color: #fff;
   --gray-color: #7A7A7A;
   --grayer-color: #444444;
+  --pre-black: #333333;
 }
 
 *,
@@ -50,9 +51,18 @@ body {
 }
 
 .dark-mode {
-  background-color: #333333;
-  color: #ffffff;
+  background-color: var(--pre-black);
+  color: var(--white-color);
   transition: 0.3s;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
+  color: var(--white-color);
 }
 
 .dark-mode a {
@@ -69,6 +79,10 @@ body {
 
 .dark-mode .header__logo {
   fill: var(--white-color);
+}
+
+.dark-mode .hero__line {
+  background-color: var(--white-color);
 }
 
 .container {
@@ -178,4 +192,23 @@ body {
   font-family: "Montserrat Alternates";
   font-size: 12px;
   font-weight: 400;
+}
+
+.hero {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.hero__title {
+  color: var(--black-color);
+  font-family: "Montserrat Alternates";
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.hero__line {
+  width: 536px;
+  height: 1px;
+  background-color: var(--black-color);
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */

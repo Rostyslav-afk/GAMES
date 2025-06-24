@@ -9,10 +9,20 @@ body {
 }
 
 .dark-mode {
-    background-color: #333333;
-    color: #ffffff;
+    background-color: var(--pre-black);
+    color: var(--white-color);
     transition: 0.3s;
 }
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
+    color: var(--white-color);
+}
+
 
 .dark-mode a {
     color: var(--white-color);
@@ -29,4 +39,8 @@ body {
 
 .dark-mode .header__logo {
     fill: var(--white-color);
+}
+
+.dark-mode .hero__line {
+    background-color: var(--white-color);
 }
